@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: 01_Admin_Api-App
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Crossworld@123
+    url: jdbc:mysql://localhost:3306/his_dev_db
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: alammdafsar1459005@gmail.com
+    password: dtrjkqxgxscmhojo
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
